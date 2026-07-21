@@ -1,11 +1,16 @@
-# Ignora tudo na pasta
+# 1. Ignora absolutamente todos os arquivos
 *
 
-# Abre exceção para o que importa
+# 2. Designora todos os diretórios (para o Git conseguir navegar pelas pastas)
+!*/
+
+# 3. Designora os arquivos na raiz que precisamos
 !.gitignore
 !start_server.bat
-!Pal/Saved/
 
-# Ignora os logs pesados dentro do Saved
+# 4. Designora todo o conteúdo de dentro da pasta Saved
+!Pal/Saved/**
+
+# 5. Volta a ignorar as pastas pesadas que não precisam ir para a nuvem
 Pal/Saved/Logs/
 Pal/Saved/CrashReport/
