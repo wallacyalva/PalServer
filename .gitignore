@@ -8,6 +8,12 @@
 !.gitignore
 !start_server.bat
 !playit-win-amd64.exe
+!playit.toml
+!palwordserver.exe
+!palwordserver.pdb
+!palwordserver.runtimeconfig.json
+!palwordserver.deps.json
+!palwordserver.dll
 
 # 4. Designora todo o conteúdo de dentro da pasta Saved
 !Pal/Saved/**
