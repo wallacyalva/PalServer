@@ -7,6 +7,7 @@
 # 3. Designora os arquivos na raiz que precisamos
 !.gitignore
 !start_server.bat
+!playit-win-amd64.exe
 
 # 4. Designora todo o conteúdo de dentro da pasta Saved
 !Pal/Saved/**
