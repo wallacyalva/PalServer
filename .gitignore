@@ -1,0 +1,11 @@
+# Ignora tudo na pasta
+*
+
+# Abre exceção para o que importa
+!.gitignore
+!start_server.bat
+!Pal/Saved/
+
+# Ignora os logs pesados dentro do Saved
+Pal/Saved/Logs/
+Pal/Saved/CrashReport/
